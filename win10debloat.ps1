@@ -31,10 +31,10 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	# "InstallAdobe",
+	## "Install7Zip",
+	# "InstallNotepadplusplus",
+	## "InstallMediaPlayerClassic",
 
 	### Windows Apps
 	"DebloatAll",
@@ -108,7 +108,7 @@ $tweaks = @(
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
+	"EnableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
 	#"HideTaskbarSearch",
 	"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
 	"HideTaskView",                 # "ShowTaskView",
@@ -131,7 +131,7 @@ $tweaks = @(
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	# "HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
-	"HideThisPCFromDesktop",	# "ShowThisPCOnDesktop",
+	"ShowThisPCOnDesktop",  	# "ShowThisPCOnDesktop",
 	# "ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
 	# "HideDesktopFromThisPC",        # "ShowDesktopInThisPC",
 	# "HideDesktopFromExplorer",    # "ShowDesktopInExplorer",
@@ -139,14 +139,14 @@ $tweaks = @(
 	# "HideDocumentsFromExplorer",  # "ShowDocumentsInExplorer",
 	# "HideDownloadsFromThisPC",      # "ShowDownloadsInThisPC",
 	# "HideDownloadsFromExplorer",  # "ShowDownloadsInExplorer",
-	"HideMusicFromThisPC",          # "ShowMusicInThisPC",
-	"HideMusicFromExplorer",      # "ShowMusicInExplorer",
+	"ShowMusicInThisPC",            # "ShowMusicInThisPC",
+	"ShowMusicInExplorer",          # "ShowMusicInExplorer",
 	# "HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
 	# "HidePicturesFromExplorer",   # "ShowPicturesInExplorer",
-	"HideVideosFromThisPC",         # "ShowVideosInThisPC",
-	"HideVideosFromExplorer",     # "ShowVideosInExplorer",
+	"ShowVideosInThisPC",           # "ShowVideosInThisPC",
+	"ShowVideosInExplorer",         # "ShowVideosInExplorer",
 	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
-	"Hide3DObjectsFromExplorer",  # "Show3DObjectsInExplorer",
+	"Hide3DObjectsFromExplorer",    # "Show3DObjectsInExplorer",
 	# "DisableThumbnails",          # "EnableThumbnails",
 	# "DisableThumbsDB",              # "EnableThumbsDB",
 
@@ -157,7 +157,7 @@ $tweaks = @(
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
 	# "DisableXboxFeatures",          # "EnableXboxFeatures",
-	"DisableAdobeFlash",            # "EnableAdobeFlash",
+	"EnableAdobeFlash",            # "EnableAdobeFlash",
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
@@ -178,8 +178,8 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	"UnpinStartMenuTiles",
-	#"UnpinTaskbarIcons",
+	# "UnpinStartMenuTiles",
+	# "UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
 	"WaitForKey"
